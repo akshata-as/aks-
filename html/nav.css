@@ -1,0 +1,13 @@
+.topnav{
+    height: 50px;
+    width: 100%;
+    background-color:black;
+    overflow: hidden;
+}
+.topnav a{
+    color: white;
+    align-items: center;
+    float: right;
+    justify-content: space-around;
+   
+}

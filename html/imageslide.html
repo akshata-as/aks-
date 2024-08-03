@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image slider</title> 
+    <style>
+        div{
+            height:500px;
+            width:1200px;
+        }
+        #slider{
+            overflow: hidden;
+            /* height:50%;
+            width: 50% */
+
+        }
+        #slider figure{
+            position: relative;
+            /* height: 500px;
+            width: 700px; */
+            margin: 0;
+            left: 0;
+            animation: 20s slider infinite;
+        }
+        #slider figure img{
+            /* height: 700px; */
+            float: left;
+            /* width: 700px; */
+        }
+        @keyframes slider{
+            0%{
+                left: 0;
+            }
+            20%{
+                left: 0;
+            }
+            25%{
+                left: -100%;
+            }
+            45%{
+                left: -100%;
+            }
+            50%{
+                left: -200%;
+            }
+            70%{
+                left: -200%;
+            }
+            80%{
+                left: -300%;
+            }
+            90%{
+                left: -300%;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div id="slider">
+        <figure>
+        <img src="../img/download.jfif" alt="">
+        <img src="../img/download.jfif" alt="">
+        <img src="../img/download.jfif" alt="">
+        <img src="../img/download.jfif" alt="">
+        </figure>
+    </div>  
+</body>
+</html>
